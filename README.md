@@ -65,9 +65,9 @@
 ## 🛠 Tech Stack
 
 The following tools were used in the construction of the project:
-
 -   HTML 
 -   SASS 
+-   Animation Css
 -   Font Family:  **[Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)**,  **[Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Displayhttps://fonts.google.com/specimen/Big+Shoulders+Display)**
 ---
 

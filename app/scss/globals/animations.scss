@@ -1,0 +1,11 @@
+@use '../util' as *;
+
+.car {
+    animation: movingCar 7s linear;
+}
+
+@keyframes movingCar {
+    100% {
+        transform: translateX(rem(110));
+    }
+}
