@@ -2,5 +2,14 @@
 
 .container {
     width: 90vw;
-    max-width: rem(1100);
+    max-width: rem(470);
+
+    border-radius: rem(8);
+    overflow: hidden;
+
+    @include breakpoint(medium) {
+        @include flex(content);
+        align-items: initial;
+        max-width: rem(915);
+    }
 }

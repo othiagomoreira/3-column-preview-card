@@ -1,0 +1,70 @@
+@use '../util' as *;
+
+.card {
+    padding: rem(48);
+
+    @include breakpoint(medium) {
+        padding: rem(36);
+    }
+
+    @include breakpoint(large) {
+        padding: rem(48);
+    }
+
+    &:nth-child(1) {
+        background-color: var(--first-card-color);
+    }
+    &:nth-child(2) {
+        background-color: var(--second-card-color);
+    }
+    &:nth-child(3) {
+        background-color: var(--third-card-color);
+    }
+
+    &__title {
+        font-size: rem(40);
+        text-transform: uppercase;
+
+        color: var(--primary-color);
+        margin: rem(28) 0;
+    }
+
+    &__description {
+        color: var(--paragraph-color);
+        letter-spacing: rem(0.5);
+        font-size: rem(15);
+        line-height: 1.6;
+        opacity: 0.9;
+
+        @include breakpoint(medium) {
+            line-height: 1.8;
+            font-size: 14px;
+        }
+    }
+
+    &__btn {
+        display: inline-block;
+        background-color: var(--primary-color);
+        border-radius: rem(32);
+        border: 2px solid var(--primary-color);
+        padding: rem(16) rem(30);
+        transition: all ease 0.5s;
+        cursor: pointer;
+        margin-top: rem(22);
+        color: #000; // mix-blend-mode defines how an element's content should blend with the element's parent content and background.
+        mix-blend-mode: screen;
+
+        &:hover {
+            background: none;
+            color: var(--primary-color);
+        }
+
+        @include breakpoint(large) {
+            padding: rem(12) rem(26);
+        }
+
+        @include breakpoint(large) {
+            margin-top: rem(80);
+        }
+    }
+}

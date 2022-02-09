@@ -12,4 +12,18 @@ html {
 
 body {
     font-family: var(--font-primary);
+    background-color: var(--primary-color);
+    background-color: lightblue;
+
+    @include flex(center);
+    min-height: 100vh;
+    padding: rem(80) 0;
+
+    @include breakpoint(medium) {
+        padding: rem(40);
+    }
+
+    @include breakpoint(large) {
+        padding: 0;
+    }
 }
