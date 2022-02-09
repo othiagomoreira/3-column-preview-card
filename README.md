@@ -1,5 +1,5 @@
 <h1 align="center">
-  ❤  <a href="#">3-column preview card</a>
+  🚘  <a href="#">3-column preview card</a>
 </h1>
 
 <h3 align="center"> 
@@ -12,12 +12,12 @@
     <img alt="made by Thiago Moreira" src="https://img.shields.io/badge/made%20by-othiagomoreira-%237319C1">
   </a>
 
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/othiagomoreira/social-proof-section?color=%2300FFFF">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/othiagomoreira/3-column-preview-card?color=%2300FFFF">
 
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/othiagomoreira/social-proof-section?style=plastic">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/othiagomoreira/3-column-preview-card?style=plastic">
 
-  <a href="https://github.com/othiagomoreira/README/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/othiagomoreira/social-proof-section">
+  <a href="https://github.com/othiagomoreira/3-column-preview-card/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/othiagomoreira/3-column-preview-card">
   </a>
     
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
@@ -38,6 +38,7 @@
 
 ## 📃 About
 
+-   A simple project to do but a lot of fun, thanks to the challenge I met proposed I got to know the **[mix-blend-mode property](https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode)**, which helped me to blend the text color with the background color
 
 ---
 
@@ -46,17 +47,17 @@
 ### 📱 Mobile
 
 <p align="center">
-  <img alt="" title="#" src="" width="200px">
+  <img alt="Screenshot mobile" title="#" src="assets/mobile.png" width="200px">
 
-  <img alt="" title="#" src="" width="200px">
+  <img alt="Mobile screenshot with effect activated" title="#" src="assets/mobile-active.png" width="200px">
 </p>
 
 ### 💻 Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="" title="#" src="" width="400px">
+  <img alt="Screenshot desktop" title="#" src="assets/desktop.png" width="400px">
 
-  <img alt="" title="#" src="" width="400px">
+  <img alt="Desktop screenshot with effect activated" title="#" src="assets/desktop-active.png" width="400px">
 </p>
 
 ---
@@ -65,7 +66,9 @@
 
 The following tools were used in the construction of the project:
 
--   Fonts:  **[Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)**,  **[Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Displayhttps://fonts.google.com/specimen/Big+Shoulders+Display)**
+-   HTML 
+-   SASS 
+-   Font Family:  **[Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)**,  **[Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Displayhttps://fonts.google.com/specimen/Big+Shoulders+Display)**
 ---
 
 ## 😎 Author
